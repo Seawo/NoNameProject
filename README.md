@@ -26,6 +26,10 @@
 ![Sturn](https://github.com/user-attachments/assets/178e183e-88d1-46ff-9c6b-d8341a256c0d)
 - 일정 확률로 나오는 치명타를 입으면 스턴 상태로 돌입하게 된다    
 
+![스크린샷 2024-12-10 145220](https://github.com/user-attachments/assets/d4e5389f-837e-45bc-bd87-383bfebcb47b)
+- ReplicatedUsing = OnRep_Currenthp를 해당 Hp값이 변경되면 클라이언트에게 변경된 값을 동기화
+- 서버에서 피격 데미지를 계산 후 -> 클라이언트 
+
 ### Net
 
 - 전체적으로 서버에거 계산을 하고 클라이언트에게 계산된 값만 매개변수로 전달하는 형식 or ReplicatedUsing 사용한 변수 바인딩으로 해당 변수 값이 변하면 등록된 함수를 호출하게 했다
