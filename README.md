@@ -1,5 +1,5 @@
 ## BOSS ( CSW부분 )
-
+<https://www.youtube.com/watch?v=ZlltAufpLec&list=PLI4ALOxREG_WXlYnrLniYcXgxgPxHiFxq&index=4>
 
 ### Struct
 - Enemy 구조
